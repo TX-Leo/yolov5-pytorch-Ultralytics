@@ -1,0 +1,18 @@
+
+#the path of train and val image set
+train: PascalVOC2022/JPEGImages/train
+val: PascalVOC2022/JPEGImages/val
+# number of classes
+# nc: 1 #这里yolov5对比yolov3,不需要再写nc了
+# class names
+# names: ['RBC'] ##这里yolov5对比yolov3,需要修改一下classes的写法（每一行一个种类，并且前面加上序号和冒号，形如：）
+# names:
+  #  0: person
+  #  1: bicycle
+  #  2: car
+  #  3: motorcycle
+  #  4: airplane
+  #  5: bus
+names:
+  0: RBC
+
